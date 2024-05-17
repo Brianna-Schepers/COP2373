@@ -1,0 +1,38 @@
+Brianna Schepers
+
+5/15/24
+
+This program creates a txt document with a list of phrases imitating a 8ball. Then it adds the phrases to a list which it uses to give the user a randomly selected response to a yes or no question.
+
+Variables Created:
+
+cont: This variable is used to determine if the user wants to continue or not.
+
+Functions Created:
+
+eight_ball: Used to create the 8ball_responses.txt file.
+
+main: Used to add the phrases to a list and interact with the user.
+
+Logical Steps:
+
+1. First the program creates a file called 8ball_responses.txt.
+
+2. After this the file.write method is used to add the 8ball phrases to the txt file.
+
+3. Next the main function is created and the cont variable is established.
+
+4. The 8ball file is then assigned the name file to use the line.strip method.
+
+5. Then the line.strip method is used to add each line to the list with no whitespace.
+
+6. After this a while loop is created which uses the pre-established cont variable to get started. Once it is started the user can determine when it ends because the while loop runs as long as cont is "y" or "Y".
+
+7. Then the program asks for user input and uses the random.choice method to display a random item from the list.
+
+8. The user is then asked if they want to continue and an if statement is created to determine if the input is valid.
+
+9. If the user answers n to wanting to continue the program ends.
+
+Link:
+https://github.com/Brianna-Schepers/BriannaSchepers_Chapter1_B
