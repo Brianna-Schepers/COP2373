@@ -1,0 +1,39 @@
+Brianna Schepers
+
+5/14/24
+
+This program asks the user to input how many movie tickets they want from a preselected amount of tickets. It only allows the user to buy up to 4 tickets at a time and doesn't allow sale when there is not enough tickets.
+
+Variables Created:
+
+TICKETS -- This is the number of tickets that are available for sale.
+
+LIMIT -- This is the limit on how many tickets guests can buy
+
+BUYERS -- This records how many people have bought tickets.
+
+
+Functions Created:
+
+cinema_tickets -- This is the main function that determines how many movie tickets can be sold and how many have been sold.
+
+
+Logical Steps:
+
+1. First the program establishes constant variables.
+
+2. A while loop is created that will continue until the tickets reach zero.
+
+3. The user is asked to input tickets and adds one buyer for every loop.
+
+4. An if statement is created to prevent user from buying more tickets than the limit.
+
+5. An elif is created to prevent the ticket count from going below zero.
+
+6. Then an else statement is created that subtracts the amount of tickets bought from the total tickets.
+
+7. After this another if statement is created to end the while loop if the amount of tickets equals zero.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
