@@ -1,0 +1,33 @@
+Brianna Schepers
+5/22/2024
+
+Variables Created:
+
+count: This variable keeps track of the amount of spam words detected
+
+
+Functions Created:
+
+spam_detector: This function gets user input and determines the chances that the input is spam.
+
+Logical Steps:
+
+1. Firstly the empty variables such as spamScore and words are created for later use.
+
+2. After this the file Spam_Words is opened and each line is added to a list called spam_words.
+
+3. Then the user is asked to enter an email which is converted to all lowercase to get an accurate spam score.
+
+4. A for loop is created that runs for the length of spam_words to count the amount of instances of spam words in the user input.
+
+5. The .count method is used to count the instances in the user input of the item that is at the index of i in spam_words.
+
+6. Then the result of the .count method is added to the spamScore variable.
+
+7. After this an if statement is created to add the item from spam_words if it is found in the user input.
+
+8. Finally, an if statement is created to detect the chance of the user input being spam based on the score.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
