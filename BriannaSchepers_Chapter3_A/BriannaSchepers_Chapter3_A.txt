@@ -1,0 +1,34 @@
+Brianna Schepers
+5/29/2024
+
+This program asks the user to input monthly expenses and tells them the total, highest, and lowest values from the list.
+
+Variables:
+
+cont: Determines if the user wants to keep entering items into the list.
+
+Functions:
+
+Main: This function gets input from the user regarding their monthly expenses and tells them data based off it.
+
+Logical Steps:
+
+1. First two empty lists are created to store the type of expense and cost respectively.
+
+2. Then a while loop is created to get monthly expenses till the user is finished inputting values.
+
+3. After this the user is asked for the type of expense which gets appended to the expense list.
+
+4. The same step is repeated with the cost of the expense to add it to the cost list.
+
+5. Then the reduce method and lambda function are used to get the sum of the cost list.
+
+6. After this the item in the expense list with the same index as the maximum item in the cost list is printed to display the name of the maximum item.
+
+7. A reduce method is used to get the maximum value in the cost list.
+
+8. The last two steps are repeated for getting the minimum value.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
