@@ -1,0 +1,32 @@
+Brianna Schepers
+6/19/2024
+
+This program detects if phone numbers, social security numbers, and zip codes are valid.
+
+Variables:
+
+Functions:
+
+main: The main function that gets user input
+
+phone_valid: Checks the parameter given to see if it is a valid phone number.
+
+ssn_valid: Checks the parameter given to see if it is a valid social security number.
+
+zip_valid: Checks the parameter given to see if it is a valid zip code.
+
+Logical Steps:
+
+1. Firstly the phone_valid function is created to check if a phone number is in the valid format.
+
+2. Using regular expressions the formatting is established.
+
+3. An if statement using re.match is then used to determine if the input is valid.
+
+4. These steps are repeated for the ssn_valid and the zip_valid functions.
+
+5. Then the main function is created which calls on the other functions and accepts user input.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
