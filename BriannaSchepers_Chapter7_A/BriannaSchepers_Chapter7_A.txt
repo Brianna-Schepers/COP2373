@@ -1,0 +1,25 @@
+Brianna Schepers
+6/19/2024
+
+This program detects the number of sentences in a string and displays them.
+
+Variables:
+count: used to count the number of sentences in the string.
+
+Functions:
+main: The main function that is used to count the sentences.
+
+Logical Steps:
+
+1. Firstly, the count variable is established to be used later.
+
+2. After that the parameters for what defines a sentence is defined using regular expressions.
+
+3. The first part of the regular expression defines the start of a sentence by a capital letter or a number.
+   The regular expression then looks for any punctuation and decides if it's a new sentence by if there is a space and a
+   letter or number after the punctuation.
+
+4. Then re.findall is used to detect the amount of sentences in the string.
+
+5. After that a for loop is created to print out each of the sentences.
+
