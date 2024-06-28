@@ -1,0 +1,45 @@
+Brianna Schepers
+6/27/2024
+
+This program gets user data to create a csv file of grades and displays the data as a table.
+
+Variables:
+
+csv_writer - Used to write information to the csv file.
+
+first_name - Used to store user input of the students first name.
+
+last_name - Used to store user input of the students last name.
+
+exam1 - Used to store user input of the students exam 3 score.
+
+exam2 - Used to store user input of the students exam 2 score.
+
+exam3 - Used to store user input of the students exam 3 score.
+
+csv_reader - Used to read information from the csv file.
+
+Functions:
+
+Write - This function is used to get data and write it to the csv file
+
+Show - Used to display the file in tabular format.
+
+Logical Steps:
+
+1. The first thing done is getting the amount of students the user wants to enter as an int.
+
+2. After that the header for the file is written.
+
+3. Then a for loop is made that gets data for the amount of students entered. At the end of each loop the data is written to the csv file.
+
+4. A new function is then created to display the file previously created as a table.
+
+5. A for loop is created to left adjust every item in a row with spaces in between them.
+
+6. In this for loop items are also separated by lines and columns using a print statement.
+
+7. After this the functions are called and the program ends.
+
+Link:
+https://github.com/Brianna-Schepers/COP2373
