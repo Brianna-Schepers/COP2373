@@ -1,0 +1,36 @@
+Brianna Schepers
+7/4/2024
+
+This program allows the user to enter in banking information and perform basic banking tasks such as withdrawing and depositing.
+
+Variables:
+
+name: Lets the user enter their name for the bank account.
+
+account_number: Lets the user enter their bank account number.
+
+amount: Lets the user enter the balance of their bank account.
+
+interest_rate: Lets the user enter an interest rate for the bank account.
+
+withdrawal_amount: Lets the user enter how much money they want to withdrawal.
+
+deposit_amount: Lets the user enter how much money they want to deposit.
+
+Functions:
+
+test: This function is used to test the methods in the BankAcct class.
+
+Logical Steps:
+
+1. Firstly, the BankAcct class is established with an __init__ method that makes sure all instances of the class have the same set of variables.
+
+2. Then the rate change method is made which replaces the old interest rate value with a new one.
+
+3. After this, the withdrawal method is established which lets the user subtract money from the current balance value.
+
+4. The deposit method is then created which lets the user add money to the current balance value.
+
+5. Then the calc_interest method is created which gets an interest amount based on the number of days provided.
+
+6. After this, the test function is created to test the methods in the BankAcct class.
