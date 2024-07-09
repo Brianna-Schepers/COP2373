@@ -1,0 +1,30 @@
+Brianna Schepers
+7/9/2024
+
+This program creates a money class that allows for addition, subtraction, and multiplication.
+
+Variables:
+v - The amount of money the user wants to work with.
+
+unit - The type of currency being used.
+
+v2 - The amount the user wants to add, subtract, or multiply by.
+
+Function:
+test: Tests the operations of the money class.
+
+Logical Steps:
+
+1. First the money class is established with a __new__ method to allow for the decimal class to be mutable.
+
+2. After this an __init__ method is established to set the amount of money and currency type.
+
+3. Then the addition method is created which allows the user to add money.
+
+4. Step three is repeated but to allow the user to subtract and multiply money respectively.
+
+5. Then the test function is defined to test the operations in the money class.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
