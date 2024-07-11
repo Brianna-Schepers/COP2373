@@ -1,0 +1,36 @@
+Brianna Schepers
+7/10/24
+
+This program lets the user perform basic money tasks using inheritance.
+
+Variables:
+
+name: Lets the user enter their name for the bank account.
+
+account_number: Lets the user enter their bank account number.
+
+interest_rate: Lets the user enter an interest rate for the bank account.
+
+amount: Lets the user enter the balance of their bank account.
+
+v2 - The amount the user wants to add, subtract, or multiply by.
+
+unit - The type of currency being used.
+
+Functions:
+
+test - Used to test the methods of the BankAcct class.
+
+Logical Steps:
+
+1. Firstly the BankAcct class and the Money class from previous projects are added to the program.
+
+2. After that the BankAcct definition statement is modified to inherit the Money class.
+
+3. Then a __new__ method is added into the BankAcct class, so it can use properties from the Money Class.
+
+4. Then the add and subtract methods are added to the BankAcct class using super().
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
