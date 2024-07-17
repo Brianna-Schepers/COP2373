@@ -1,0 +1,35 @@
+Brianna Schepers
+7/16/2024
+
+This program allows the user to get a poker hand and redraw cards.
+
+Variables:
+
+numbers - The cards the user wants to replace in the current hand.
+
+numbers_list - A list version of numbers to do operations on.
+
+Functions:
+
+main - The main function to test and use methods in the deck class.
+
+Logical Steps:
+
+1. Firstly I started by putting the pre-established Deck class into my program.
+
+2. After this the redraw method is created to give the user the ability to select new cards.
+
+3. In the method the user is asked to input numbers which are added to a list, so they can be iterated.
+
+4. Then a for loop is created which allows for indexes matching the numbers in numbers_list to be deleted.
+
+5. After this a new card from the deck is added into the cards_in_play_list using the pop method.
+
+6. The cards_in_play_list is returned by the method, so we can display the hand.
+
+7. Skipping over the book code, if we look in the main function a for loop is created to display the hand
+   by dividing every value in the cards_in_play_list by 13.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
