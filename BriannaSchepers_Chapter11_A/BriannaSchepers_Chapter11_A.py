@@ -42,7 +42,7 @@ class Deck:
 
         # Asks the user for what cards they want to redraw.
 
-        numbers = input("Enter a number:")
+        numbers = input("Enter the numbers of which cards you want to replace separated by commas:")
 
         numbers_list = numbers.split(',')
 
