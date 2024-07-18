@@ -14,7 +14,7 @@ def get_hypotenuse():
 
     hypotenuse = length/cos(radians(angle))
 
-    print("The hypotenuse is", round(hypotenuse, 3))
+    print("The hypotenuse length is", round(hypotenuse, 3))
 
 
 get_hypotenuse()
