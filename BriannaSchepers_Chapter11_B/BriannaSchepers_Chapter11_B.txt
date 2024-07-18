@@ -1,0 +1,27 @@
+Brianna Schepers
+7/17/2024
+
+Variables:
+
+angle - The user input on the nearest angle.
+
+length - The user input on the length of the adjacent side.
+
+hypotenuse - The variable that performs the hypotenuse calculation.
+
+Functions:
+
+get_hypotenuse - The main function that performs the hypotenuse calculation.
+
+Logical Steps:
+
+1. First cos and radians are imported from the math package to properly calculate the hypotenuse.
+
+2. Then the user is asked to enter the angle and length variables.
+
+3. After this the hypotenuse is calculated bt dividing the length by the cos of the angle.
+   Radians is used to convert the degrees to radians.
+
+4. Then the function displays the hypotenuse using a print statement.
+
+Link:
