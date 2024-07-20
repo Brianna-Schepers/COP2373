@@ -60,7 +60,7 @@ class Deck:
 
             new_card = self.card_list.pop()
 
-            self.cards_in_play_list.append(new_card)
+            self.cards_in_play_list.insert(i-1, new_card)
 
         # Returns the cards_in_play_list to properly display the current hand.
 
