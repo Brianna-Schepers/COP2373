@@ -1,0 +1,32 @@
+Brianna Schepers
+7/24/2024
+
+This program uses numpy to perform mathematical functions on information from a csv file.
+
+Variables:
+
+grades - Puts the data from the csv into a numpy array.
+
+passing_grades - Used to calculate the number of passing grades.
+
+failing_grades - Used to calculate the number of failing grades.
+
+Functions:
+
+main - The main function that performs all the operations.
+
+Logical Steps:
+
+1. Firstly the csv file is opened and its contents are put into an array.
+
+2. After this a while loop is made to perform operations on the first three exams individually.
+
+3. Then operations are performed on all three of the exams combined.
+
+4. The program then finds the number of passing and failing grades and displays them.
+
+5. Using the data on the passing and failing grades the percentage of passing grades is then calculated.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
