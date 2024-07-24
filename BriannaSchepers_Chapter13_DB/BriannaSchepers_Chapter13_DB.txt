@@ -1,0 +1,41 @@
+Brianna Schepers
+7/24/2024
+
+This program creates a database with population information.Then it calculates the population growth to create a matplotlib plot
+
+Variables:
+
+population - The connection to the database.
+
+i - Iterator for the while loop.
+
+city - User input on what city the SQL query should get data on.
+
+result - The result of the previous SQL query.
+
+Functions:
+
+main - Creates the population_BS database and population table.
+
+population_growth - Calculates a cities population growth based on the population in the population table.
+
+show_population_growth - displays the population growth as a plot based on user input.
+
+Logical Steps:
+
+1. Firstly the population_BS is created and the population table is created.
+
+2. Data about cities is then added into the population table.
+
+3. After this the population_growth function is created.
+
+4. A while loop is made to add a new column for every year of growth and then a update statement is used to calculate the growth for each year.
+
+5. Show_population_growth is then created.
+
+6. This function first gets what city the user wants data on and then adds the information in the
+   population table into an array to create a matplotlib plot.
+
+Link:
+
+https://github.com/Brianna-Schepers/COP2373
